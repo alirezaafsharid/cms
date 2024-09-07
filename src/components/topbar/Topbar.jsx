@@ -24,7 +24,10 @@ export default function Topbar() {
           <div className="topbarIconContainer">
             <SettingsIcon />
           </div>
-          <img src="/cms/public/logo192.png" className="topAvatar" />
+          <img
+            src="/cms/public/StockCake-Laptop on Desk_1723024397.jpg"
+            className="topAvatar"
+          />
         </div>
       </div>
     </div>
