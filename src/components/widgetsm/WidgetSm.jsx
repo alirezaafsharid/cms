@@ -1,7 +1,7 @@
 import React from "react";
 import VisibilityIcon from "@mui/icons-material/Visibility";
-import { newMembers } from "../../datas";
-import "./WidgetSm.css";
+import { newMembers } from "./../../datas";
+import "./widgetSm.css";
 
 export default function WidgetSm() {
   return (

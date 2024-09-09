@@ -1,5 +1,4 @@
 import React from "react";
-import "./Sidebar.css";
 import LineStyleIcon from "@mui/icons-material/LineStyle";
 import TimelineIcon from "@mui/icons-material/Timeline";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
@@ -16,6 +15,8 @@ import ReportIcon from "@mui/icons-material/WorkOutline";
 
 import { Link } from "react-router-dom";
 
+import "./Sidebar.css";
+
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -29,7 +30,6 @@ export default function Sidebar() {
                 Home
               </li>
             </Link>
-
             <li className="sidebarListItem">
               <TimelineIcon className="sidebarIcon" />
               Analytics
@@ -61,7 +61,6 @@ export default function Sidebar() {
                 Products
               </li>
             </Link>
-
             <li className="sidebarListItem">
               <AttachMoneyIcon className="sidebarIcon" />
               Transactions

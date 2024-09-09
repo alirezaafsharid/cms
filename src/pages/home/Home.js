@@ -1,11 +1,11 @@
-import React from "react";
-import Features from "./../../components/features/Feature";
-import Chart from "./../../components/Chart/Chart";
-import WidgetLg from "./../../components/WidgetLg/WidgetLg.jsx";
-import WidgetSm from "../../components/WidgetSm/WidgetSm.jsx";
-import { xAxisData } from "../../datas";
+import React from 'react';
+import Features from './../../components/features/Feature'
+import Chart from './../../components/Chart/Chart'
+import WidgetSm from './../../components/widgetSm/widgetSm'
+import WidgetLg from './../../components/WidgetLg/WidgetLg'
+import { xAxisData } from '../../datas';
 
-import "./Home.css";
+import './Home.css'
 
 export default function Home() {
   return (
@@ -17,5 +17,5 @@ export default function Home() {
         <WidgetLg />
       </div>
     </div>
-  );
+  )
 }
